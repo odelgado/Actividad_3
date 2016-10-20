@@ -414,3 +414,9 @@ p {
 margin-left: 60px;
 margin-right: 50px;
 }
+
+.parrafo_1 div{
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+}
