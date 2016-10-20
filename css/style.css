@@ -415,8 +415,18 @@ margin-left: 60px;
 margin-right: 50px;
 }
 
-.parrafo_1 div{
+ul.objetivos{
+	list-style-type: disc;
 	font-size: 12px;
 	font-weight: normal;
 	color: #333;
+}
+ul.objetivos li {
+list-style-type:circle; 
+background: none;
+float: none;
+text-align:left;
+padding: 3px;
+margin-left: 60px;
+margin-right: 50px;
 }
