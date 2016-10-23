@@ -386,6 +386,42 @@ p{
 	text-decoration: none;
 }
 
+table { 
+    font-size: 15px;    
+  	text-align: left;
+    border-collapse: collapse; 
+    border-spacing: 0;
+    margin-left: 70px;
+    margin-right: 60px;
+  
+}
+
+th { font-size: 15px;     
+	font-weight: bold;  
+	padding: 5px;     
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+    
+}
+
+td {   font-size: 13px; 
+	padding: 5px;     
+	background: #e8edff;     
+	border-bottom: 1px solid #fff;
+	color: #669;    
+	border-top: 1px solid transparent;
+
+	 }
+
+tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
+	
+}
+ 
+
 /*SEUDO CLASES*/
 p {
 	font-size: 12px;
@@ -451,3 +487,14 @@ margin-left: 60px;
         position:absolute;
         min-width:130px;
         }
+
+.cajas img {
+   max-width: 80%;
+    height: 400px;
+    width: auto/9;  /*Bug de ie8*/ 
+    width: 650px;
+    margin-left: 60px;
+    margin-right: 50px;
+
+
+ 
